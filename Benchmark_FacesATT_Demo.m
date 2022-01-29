@@ -1,5 +1,9 @@
 clear, close all, clc
 
+%This code is to use the least squares clustering method to sort a set of human faces from ATT. 
+%It is written by Zhaiming Shen under Dr. Ming-Jun Lai's supervision in 2021. 
+%Please refer to our paper "A Least Square Approach to Semi-supervised Local Cluster Extraction" for more details.
+
 % =================== Parameters and load the data ===================== %
 load('adj_matrix.mat');
 
